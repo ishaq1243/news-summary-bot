@@ -1,0 +1,6 @@
+streamlit==1.27.2           # Adjust version if necessary
+transformers==4.35.0        # Latest compatible version with summarization model
+torch                       # Required by Hugging Face transformers
+newspaper3k==0.2.8          # For scraping news articles
+sentencepiece               # Needed for some transformer models
+sacremoses==0.1.1
